@@ -1,7 +1,7 @@
 {
   "expo": {
-    "name": "StayFast",
-    "slug": "StayFast",
+    "name": "HolidayHub",
+    "slug": "HolidayHub",
     "version": "1.0.0",
     "orientation": "portrait",
     "icon": "./assets/icon.png",
@@ -15,16 +15,29 @@
       "**/*"
     ],
     "ios": {
-      "supportsTablet": true
+      "supportsTablet": true,
+      "bundleIdentifier": "com.carlodev.HolidayHub"
     },
     "android": {
       "adaptiveIcon": {
         "foregroundImage": "./assets/adaptive-icon.png",
         "backgroundColor": "#ffffff"
-      }
+      },
+      "package": "com.carlodev.HolidayHub"
     },
     "web": {
       "favicon": "./assets/favicon.png"
+    },
+    "extra": {
+      "eas": {
+        "projectId": "60d549ac-b0e7-465b-931e-6660982b4870"
+      }
+    },
+    "runtimeVersion": {
+      "policy": "sdkVersion"
+    },
+    "updates": {
+      "url": "https://u.expo.dev/60d549ac-b0e7-465b-931e-6660982b4870"
     }
   }
 }
