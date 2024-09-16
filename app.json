@@ -38,6 +38,9 @@
     },
     "updates": {
       "url": "https://u.expo.dev/60d549ac-b0e7-465b-931e-6660982b4870"
+    },
+    "expo": {
+      "sdkVersion": "51.0.0"
     }
   }
 }
